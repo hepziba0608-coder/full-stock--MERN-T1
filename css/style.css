@@ -1,0 +1,37 @@
+/* selector {
+    property: value;
+} */
+ p{
+    color:green;
+ }
+ h1{
+    color:blue;
+ }
+ #text{
+    +<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+    <style>
+        h1{
+            background-color: rgba(228, 112, 183, 0.993);
+        }
+        p{
+            color: blueviolet;
+            font-style: italic;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .link{
+            color: red;
+            text-decoration: none;
+        }  
+        h1,p,a{
+            color: green;
+        }   
